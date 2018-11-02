@@ -12,9 +12,7 @@ fancybox: true
 sidebar: right
 widgets:
 - category
-- tag
 - tagcloud
-- archive
 - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
@@ -39,12 +37,12 @@ fb_app_id:
 # valine comment system. https://valine.js.org
 valine:
   enable: false # if you want use valine,please set this value is ture
-  appId:  # leancloud application app id
-  appKey:  # leancloud application app key
+  appId:  OgdVd4qLLYB5m3cE0jOgW8qw-gzGzoHsz # leancloud application app id
+  appKey: zIS90VgX4nfeu8Nig7BBNQOh # leancloud application app key
   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
-  verify: false # valine verify code (true/false)
+  verify: true # valine verify code (true/false)
   pageSize: 10 # comment list page size
   avatar: mm # gravatar style https://valine.js.org/#/avatar
   lang: zh-cn # i18n: zh-cn/en
   placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
-  guest_info: nick,mail,link #valine comment header info
+  guest_info: nick,mail #valine comment header info
